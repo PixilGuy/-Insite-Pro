@@ -1,0 +1,138 @@
+
+::-webkit-scrollbar  { 
+    display: none; 
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{    
+    background-color: black;
+
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+    font-family: Georgia, serif;
+}
+
+.ZOOm{
+	overflow: hidden;
+	padding-bottom:5%;
+}
+
+.ZOOm img{
+	position: fixed;
+	top: 0%;
+    left: 30%;
+    margin-top: -150px;
+	max-width: 200%;
+	width: 100%;
+	transform: translateX(-30%);
+	/* Thanks  @bastian_fiessinger. Use when activating blur effect:
+	will-change: -webkit-filter, filter, transform; */
+}
+
+
+
+@media (max-width: 667px) {
+    .ZOOm{
+		overflow: hidden;
+		padding-bottom: 75%;
+    }
+    
+    .container-disp {
+        margin: 0 auto;
+		max-width: 90%;
+		width: 100%;
+		height: 100%;
+		text-align: justify;
+    }
+}
+
+.container-main
+{
+	position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.container-disp {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    max-width: 90%;
+	width: auto;
+    
+}
+
+.container-content {
+    color: white;
+    margin-top: 230px;
+    margin-left: 30px; 
+}
+
+.p_content {
+    color: white;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-right: 80px;
+}
+
+.left-bar {
+    margin-top: 0px;
+    margin-left: 230px;
+    position: fixed;
+}
+
+.container-logo {
+    margin-top: 250px;
+}
+
+.nav-pills {
+    font-size: 14px;
+}
+
+a {
+    color: white;
+}
+
+a:hover  {
+    color: #609ff6;
+}
+
+.logo {
+    color: white;
+}
+
+.btn.btn-danger.btn-logo {
+    margin-left: 50px;
+}
+
+.row-custom {
+    width: 700px;
+    margin-top: 240px;
+
+}
+
+.kart-but {
+    margin-left: 34px;
+}
+
+.container-content-botm {
+    color: white;
+    margin-top: 200px;
+    margin-left: 30px; 
+
+}
+
+.row-main {
+    padding-top: 80px;
+    padding-bottom: 50px;
+
+}
+
